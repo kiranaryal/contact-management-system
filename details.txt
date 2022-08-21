@@ -1,0 +1,23 @@
+
+
+PHP Project
+
+Contact Management Project
+
+
+
+1) Login / Logout - Use Session 
+
+2) Contact can upload documents of specific type i.e don’t allow to insert other of doc accept format: pdf, doc, docx
+
+3) Create log & ever thing in log module
+
+4) For backend, dashboard you can use admin Lte or anything you would like to use
+
+5) Multiple user can login in and maintain their contact
+
+6) Super admin can change the password of others but normal users can only change their own password.
+
+7) Maintain user profile too
+
+8) User can search their contact
