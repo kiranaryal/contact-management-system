@@ -9,6 +9,10 @@ if(isset($_POST['username'])&&isset($_POST['password'])&&isset($_POST['submit'])
     $result = mysqli_query($conn,$sql);
     if(mysqli_num_rows($result)>0){
         $_SESSION['loginname']= $username;
+        $row = mysqli_fetch_array($result);
+if($row['role']=="1"){
+    $_SESSION['admin']= true;
+}
         echo "Login Successful";
         echo $_SESSION['loginname'];
         header("location:index.php?action=login successfully"); 

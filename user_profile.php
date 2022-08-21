@@ -41,7 +41,7 @@ $picture = $row['picture'] ?? "";
     <input type="hidden" name="id" value="<?php echo $id; ?>">
     <input type="submit" name="submit" value="submit">
 </form>
-<img src="<?php echo "/contact/pictures/".$picture; ?>" alt="not found">
+<img src="<?php echo "/contact/pictures/".$picture; ?>" alt="not found" height="200px" width ="200px">
 <?php
 
 if(isset($_POST['submit'])){
